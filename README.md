@@ -1,15 +1,35 @@
-# Employee_Management_System
-A frontend-only employee task management system built with React.js and Tailwind CSS, where admins assign tasks and employees manage them by status (New, Active, Completed, Failed). Used Context API and localStorage for state and data handling.
+# 🚀 Employee Management System
 
-# React + Vite
+A **frontend-only** employee task management system built with **React.js** and **Tailwind CSS**, where **admins** can assign tasks and **employees** can view and update their task status as **New**, **Active**, **Completed**, or **Failed**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ This project uses **Context API** for global state management and **localStorage** for persistent data storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Technologies Used
 
-## Expanding the ESLint configuration
+- ⚛️ React.js
+- 🎨 Tailwind CSS
+- 🧠 Context API
+- 💾 Local Storage
+- ⚙️ Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 📁 Features
+
+- 🔐 **Role-Based Login** (Admin / Employee)
+- 📋 **Task Management**: Create, Assign, Update task status
+- 📊 **Task Summary**: View task counts by type
+- 🧠 **Persistent Data**: Stored using localStorage
+- 🌈 **Responsive UI** with Tailwind CSS
+- 🚀 Built using **React + Vite** for fast development
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+npm install
+npm run dev
